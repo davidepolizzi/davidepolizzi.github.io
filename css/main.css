@@ -67,12 +67,13 @@ body {
     justify-content: flex-end;
   }
 
-  /*---BackGround---*/
+  /*---Header---*/
   .header {
-    background-image: url('../img/BG_Chart.jpg');
+    background-image: url('../img/BG_Chart2.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
+    max-height: 400px;
   }
   .overlay {
     position: absolute;
@@ -82,3 +83,4 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.80);
   }
+  
