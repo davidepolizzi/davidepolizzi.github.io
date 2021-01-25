@@ -17,7 +17,7 @@ body {
   .description {
     left: 50%;
     position: absolute;
-    top: 45%;
+    top: 65%;
     transform: translate(-50%, -55%);
     text-align: center;
   }
@@ -77,7 +77,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    max-height:350px;
+    max-height:300px;
   }
   .overlay {
     position: absolute;
