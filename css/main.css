@@ -1,7 +1,8 @@
   /*---Carosel*/
 
 .carousel-item{
-  max-width: 400px;
+  max-width: 500px;
+  max-width: 350px;
   align-items: center;
 }
 body {
@@ -29,6 +30,7 @@ body {
   }
   .description h1 {
     color: #d2e901;
+    text-shadow: 4px 4px #465010;
   }
   .description p {
     color: #fff;
@@ -56,21 +58,26 @@ body {
   /*--- navigation bar ---*/
   
   .navbar {
-    background:#133379;
+    background:#103074;
   }
-  
-  .nav-link,
+
   .navbar-brand {
-    color: #fff;
     cursor: pointer;
+    color: #ffffff;
   }
-  
+  .navbar-brand:hover {
+    color: #d2e901;
+    font-weight: 700;
+  }
+
   .nav-link {
+    color: #ffffff;
     margin-right: 1em !important;
   }
   
   .nav-link:hover {
-    color: #000;
+    color: #d2e901;
+    font-weight: 700;
   }
   
   .navbar-collapse {
@@ -93,3 +100,6 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.75);
   }
+.row{
+  margin-bottom: 2%;
+}
