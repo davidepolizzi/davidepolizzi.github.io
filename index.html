@@ -105,7 +105,12 @@
         <div class="col-md-6 col-sm-12">
           <a name="MyCertifications"></a>
           <h3 class="feature-title">Certifications</h3>
-          <div id="myCarousel" class="carousel carousel-dark slide" data-ride="carousel" data-bs-interval="1000">
+          <div id="myCarousel" class="carousel slide carousel-fade carousel-dark" data-ride="carousel" data-bs-interval="1000">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="container">
@@ -136,19 +141,28 @@
                 </div>
               </div>
             </div>
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="myCarousel" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
           <a name="MyCourses"></a>
           <h3 class="feature-title">Courses</h5>
-          <div id="myCarousel2" class="carousel carousel-dark slide" data-ride="carousel" data-bs-interval="1000">
+          <div id="myCarousel2" class="carousel carousel-dark slide carousel-fade" data-ride="carousel" data-bs-interval="1000">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="container">
                     <h5>Statistics</h5>
                     <a href="https://courses.edx.org/certificates/acdbeb917f7b4f1e860e853d5b3b8d78"  target="_blank">
                     <img src="img/Cour_Statistics.png" alt="Stats" class="img-fluid"></a>
-                    <p></p>
+                    <p>Columbia</p>
                 </div>
               </div>
               <div class="carousel-item">
@@ -165,6 +179,14 @@
                   <a href="https://www.sololearn.com/Certificate/1060-1530638/jpg"  target="_blank">
                   <img src="img/Cour_SQL.jpg" alt="SQL" class="img-fluid"></a>
                   <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <h5>Azure-HD Insight</h5>
+                  <a href="#"  target="_blank">
+                  <img src="img/cours_HDInsight.PNG" alt="HD" class="img-fluid"></a>
+                  <p>Microsoft</p>
                 </div>
               </div>
             </div>
