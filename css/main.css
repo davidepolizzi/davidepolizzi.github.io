@@ -1,14 +1,8 @@
   /*---Carosel*/
-
-.carousel-item{
-  max-width: 500px;
-  max-width: 350px;
-  align-items: center;
-}
 body {
     padding: 0;
     margin: 0;
-    background: #f0ee84;
+    background: #ffffe5;
   }
   
   h1 {
@@ -60,7 +54,6 @@ body {
   .navbar {
     background:#103074;
   }
-
   .navbar-brand {
     cursor: pointer;
     color: #ffffff;
@@ -69,17 +62,14 @@ body {
     color: #d2e901;
     font-weight: 700;
   }
-
   .nav-link {
     color: #ffffff;
     margin-right: 1em !important;
   }
-  
   .nav-link:hover {
     color: #d2e901;
     font-weight: 700;
   }
-  
   .navbar-collapse {
     justify-content: flex-end;
   }
@@ -100,16 +90,7 @@ body {
     top: 0;
     background: rgba(0, 0, 0, 0.75);
   }
-.row{
+/* .row{
   margin-bottom: 2%;
-}
-.carousel-dark .carousel-indicators li {
-  background-color: rgb(0, 0, 0);
-}
-.carousel-dark .carousel-control-prev {
-  color: #0f0909;
-}
-.carousel-dark .carousel-control-next {
-  color: #0f0909;
-}
+} */
 
