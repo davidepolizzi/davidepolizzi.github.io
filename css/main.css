@@ -81,7 +81,7 @@ body {
     background-image: url('../img/BG_Chart2.jpg');
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative; top: 70px;
     max-height:300px;
   }
   .overlay {
@@ -90,7 +90,7 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
   }
 /* .row{
   margin-bottom: 2%;
